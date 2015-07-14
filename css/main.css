@@ -1,3 +1,8 @@
+@font-face {
+	font-family:comical;
+	src: url('../fonts/animeace2_reg.otf');
+}
+
 body {
 	background-color:#000000;
 }
@@ -10,7 +15,13 @@ body {
 	height: 500px;
 	position: relative;
 	z-index:1;
+	font-family:comical;
 }
+
+h1 {
+	font-size: 1.5em;
+}	
+
 
 .ryu {
 	float:left;
@@ -61,4 +72,20 @@ body {
 	top: 170px;
 	left: 580px;
 
+}
+
+#h-text {
+	width:8em;
+	position:absolute;
+	top:50px;
+	left:600px;
+	z-index:5;
+}
+
+#x-text {
+	width:8em;
+	position:absolute;
+	top:220px;
+	left:900px;
+	z-index:5;
 }
